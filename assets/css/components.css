@@ -1,20 +1,32 @@
-/* Components */
+/* Components – Premium Upgrade */
 
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 20px;
+    gap: 24px;
 }
 
 .card {
     background: #fff;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 24px;
+    border-radius: 12px;
     border: 1px solid #ddd;
-    transition: 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    transition: 0.25s ease;
 }
 
 .card:hover {
     border-color: #000;
-    transform: translateY(-3px);
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+.card h4 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.card p {
+    opacity: 0.85;
+    line-height: 1.5;
 }
