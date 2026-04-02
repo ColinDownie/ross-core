@@ -1,97 +1,18 @@
-/* Ross Core – Premium Base Styles */
+/* Master stylesheet – imports modular CSS */
 
-:root {
-    --font-main: system-ui, sans-serif;
-    --max-width: 900px;
-    --space: 24px;
-    --bg: #ffffff;
-    --fg: #111111;
-    --accent: #000000;
-    --card-bg: #fafafa;
-    --card-border: #e5e5e5;
-}
+@import url('layout.css');
+@import url('components.css');
+@import url('dashboard.css');
 
+/* Global resets */
 body {
     margin: 0;
-    padding: 0;
-    font-family: var(--font-main);
-    background: var(--bg);
-    color: var(--fg);
-    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    color: #222;
 }
 
-/* HEADER */
-header {
-    padding: var(--space);
-    background: var(--accent);
-    color: #fff;
-}
-
-header nav a {
-    margin-right: 20px;
-    color: #fff;
+a {
     text-decoration: none;
-    font-weight: 500;
-}
-
-/* MAIN LAYOUT */
-main {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: var(--space);
-}
-
-/* HERO */
-.hero {
-    padding: 60px 0;
-}
-
-.hero h2 {
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 18px;
-    max-width: 700px;
-}
-
-/* INTRO SECTION */
-.intro {
-    margin-top: 40px;
-}
-
-.intro h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-/* GRID */
-.grid {
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 24px;
-}
-
-.card {
-    background: var(--card-bg);
-    border: 1px solid var(--card-border);
-    padding: 20px;
-    border-radius: 6px;
-}
-
-.card h4 {
-    margin-top: 0;
-    font-size: 20px;
-}
-
-/* FOOTER */
-footer {
-    margin-top: 60px;
-    padding: var(--space);
-    background: #f2f2f2;
-    text-align: center;
-    font-size: 14px;
-    color: #555;
+    color: inherit;
 }
