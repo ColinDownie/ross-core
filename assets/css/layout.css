@@ -1,0 +1,39 @@
+/* Layout & structure */
+
+header {
+    padding: 20px;
+    background: #111;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #111;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.hero {
+    padding: 60px 20px;
+    background: #eaeaea;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.intro {
+    margin-bottom: 40px;
+}
