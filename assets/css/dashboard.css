@@ -1,0 +1,13 @@
+/* Dashboard-specific styling */
+
+.card {
+    cursor: pointer;
+}
+
+.card h4 {
+    margin-top: 0;
+}
+
+.card p {
+    opacity: 0.8;
+}
