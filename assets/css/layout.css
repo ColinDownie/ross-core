@@ -37,3 +37,16 @@ footer {
 .intro {
     margin-bottom: 40px;
 }
+/* Spacing & Rhythm */
+
+section {
+    margin-bottom: 60px;
+}
+
+.hero {
+    padding: 80px 20px;
+}
+
+footer {
+    margin-top: 80px;
+}
