@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url><loc>https://YOURDOMAIN/</loc></url>
+  <url><loc>https://YOURDOMAIN/about/</loc></url>
+  <url><loc>https://YOURDOMAIN/backoffice/</loc></url>
+  <url><loc>https://YOURDOMAIN/backoffice/frameworks/</loc></url>
+  <url><loc>https://YOURDOMAIN/backoffice/diagnostics/</loc></url>
+  <url><loc>https://YOURDOMAIN/backoffice/modules/</loc></url>
+  <url><loc>https://YOURDOMAIN/backoffice/clients/</loc></url>
+  <url><loc>https://YOURDOMAIN/backoffice/tools/</loc></url>
+
+</urlset>
