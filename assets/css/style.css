@@ -37,6 +37,10 @@ main {
     padding: var(--space);
 }
 
+.hero {
+    padding: 60px 0;
+}
+
 footer {
     margin-top: 60px;
     padding: var(--space);
