@@ -5,5 +5,5 @@ console.log("Ross Core loaded");
 // Initialise theme system
 import './theme.js';
 
-// Initialise dashboard interactions (only if dashboard exists)
+// Initialise dashboard interactions
 import './dashboard.js';
