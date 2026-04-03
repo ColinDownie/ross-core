@@ -1,6 +1,6 @@
 /* Ross Core – Dark Mode */
 
-body {
+html[data-theme="dark"] body {
     background: #111;
     color: #eee;
 }
