@@ -6,6 +6,7 @@ A clean, modular, premium codebase built for clarity, scale, and quiet confidenc
 ---
 
 ## Folder Structure
+```
 /
 ├── index.html
 ├── about/
@@ -14,6 +15,8 @@ A clean, modular, premium codebase built for clarity, scale, and quiet confidenc
 │   ├── css/
 │   └── js/
 └── brand/
+```
+
 
 ---
 
