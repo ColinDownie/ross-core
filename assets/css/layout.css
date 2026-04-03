@@ -1,4 +1,4 @@
-/* Layout & structure */
+/* Layout & Structure */
 
 header {
     padding: 20px;
@@ -24,29 +24,23 @@ footer {
     text-align: center;
     background: #111;
     color: #fff;
-    margin-top: 40px;
+    margin-top: 80px; /* final value */
 }
 
+/* Hero Section */
 .hero {
-    padding: 60px 20px;
+    padding: 80px 20px; /* final value */
     background: #eaeaea;
     border-radius: 8px;
     margin-bottom: 40px;
 }
 
+/* Intro Section */
 .intro {
     margin-bottom: 40px;
 }
-/* Spacing & Rhythm */
 
+/* Global Section Rhythm */
 section {
     margin-bottom: 60px;
-}
-
-.hero {
-    padding: 80px 20px;
-}
-
-footer {
-    margin-top: 80px;
 }
